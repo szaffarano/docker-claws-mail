@@ -22,42 +22,23 @@ RUN \
   apt-get update && \
   apt-get install --no-install-recommends -y \
     build-essential \
-    pkg-config \
-    libpoppler-dev \
-    libetpan-dev \
-    libgtk2.0-dev \
-    libglib2.0-dev \
-    libcanberra-dev \
-    libcanberra-gtk-dev \
-    libcompfaceg1-dev \
-    bogofilter \
-    bsfilter \
-    libwebkitgtk-dev \
-    libclamav-dev \
-    libical-dev \
-    libytnef-dev \
-    libgpgme11-dev \
-    libnotify-dev \
-    libenchant-dev \
-    libgdata-dev \
-    libpoppler-glib-dev \
-    libarchive-dev \
-    libperl-dev \
-    python-dev \
-    libldap-dev \
-    python-gtk2-dev \
-    librsvg2-dev \
-    network-manager-dev \
-    libdbus-glib-1-dev \
     git \
     bison \
     flex \
     automake \
-    libtool \
-    m4 \
-    automake \
     gettext \
-    curl && \
+    libtool \
+    gettext \
+    pkg-config \
+    libglib2.0-dev \
+    libgtk2.0-dev \
+    libetpan-dev \
+    libgpgme11-dev \
+    libgtk2.0-dev \
+    libwebkitgtk-dev \
+    libpoppler-dev \
+    libpoppler-glib-dev \
+    libical-dev && \
   rm -rf /var/lib/apt/lists/*
 
 RUN \
