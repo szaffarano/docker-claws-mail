@@ -14,8 +14,8 @@ ENV GID                   1000
 # end configuration, dont touch below
 ##############################################
 
-ENV CLAWS_REPO            http://git.claws-mail.org/readonly/claws.git
-ENV CLAWS_THEMES_REPO     http://git.claws-mail.org/readonly/themes.git
+ENV CLAWS_REPO            git://git.claws-mail.org/claws.git
+ENV CLAWS_THEMES_REPO     git://git.claws-mail.org/themes.git
 ENV CLAWSKER_REPO         http://git.claws-mail.org/readonly/clawsker.git
 
 RUN \
