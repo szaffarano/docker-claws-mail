@@ -50,9 +50,9 @@ RUN git clone --branch ${CLAWS_THEMES_VERSION} ${CLAWS_THEMES_REPO} clawsthemes 
     cd clawsthemes && ./autogen.sh  && make -j $(nproc --all) && make install && \
     cd .. && rm -rf clawsthemes
 
-RUN git clone --branch ${CLAWSKER_VERSION} ${CLAWSKER_REPO} clawswer && \
-    cd clawswer && make install && \
-    cd .. && rm -rf clawswer
+#RUN git clone --branch ${CLAWSKER_VERSION} ${CLAWSKER_REPO} clawswer && \
+#    cd clawswer && make install && \
+#    cd .. && rm -rf clawswer
 
 RUN \
   apt-get update && \
