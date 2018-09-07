@@ -3,7 +3,7 @@ FROM ubuntu:17.10
 ##############################################
 # configuration
 ##############################################
-ENV CLAWS_VERSION         3.16.0
+ENV CLAWS_VERSION         3.17.1
 ENV CLAWS_THEMES_VERSION  20140629
 ENV CLAWSKER_VERSION      1.1.0
 
