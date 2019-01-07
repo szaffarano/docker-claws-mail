@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VERSION=3.17.1
+VERSION=3.17.3
 IMAGE="szaffarano/claws-mail"
 
 if ! [ -z "$http_proxy" ]; then
